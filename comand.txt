@@ -1,0 +1,2 @@
+nest g mo api/api --flat --no-spec && mkdir api/products && nest g mo api/products/products --flat --no-spec &&
+nest g co api/products/products --flat --no-spec && nest g s api/products/products --flat --no-spec && touch api/products/products.interface.ts && touch api/products/products.dto.ts && touch api/products/products.model.ts
